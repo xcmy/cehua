@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD14C38D1DFA3F1700EFABF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD14C38C1DFA3F1700EFABF7 /* AppDelegate.swift */; };
+		CD14C38F1DFA3F1700EFABF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD14C38E1DFA3F1700EFABF7 /* ViewController.swift */; };
+		CD14C3921DFA3F1700EFABF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD14C3901DFA3F1700EFABF7 /* Main.storyboard */; };
+		CD14C3941DFA3F1700EFABF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD14C3931DFA3F1700EFABF7 /* Assets.xcassets */; };
+		CD14C3971DFA3F1700EFABF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD14C3951DFA3F1700EFABF7 /* LaunchScreen.storyboard */; };
+		CD14C3A21DFA3F1700EFABF7 /* cehuaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD14C3A11DFA3F1700EFABF7 /* cehuaTests.swift */; };
+		CD14C3AD1DFA3F1700EFABF7 /* cehuaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD14C3AC1DFA3F1700EFABF7 /* cehuaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD14C39E1DFA3F1700EFABF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD14C3811DFA3F1600EFABF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD14C3881DFA3F1600EFABF7;
+			remoteInfo = cehua;
+		};
+		CD14C3A91DFA3F1700EFABF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD14C3811DFA3F1600EFABF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD14C3881DFA3F1600EFABF7;
+			remoteInfo = cehua;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD14C3891DFA3F1700EFABF7 /* cehua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cehua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD14C38C1DFA3F1700EFABF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD14C38E1DFA3F1700EFABF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD14C3911DFA3F1700EFABF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD14C3931DFA3F1700EFABF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD14C3961DFA3F1700EFABF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD14C3981DFA3F1700EFABF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD14C39D1DFA3F1700EFABF7 /* cehuaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cehuaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD14C3A11DFA3F1700EFABF7 /* cehuaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cehuaTests.swift; sourceTree = "<group>"; };
+		CD14C3A31DFA3F1700EFABF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD14C3A81DFA3F1700EFABF7 /* cehuaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cehuaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD14C3AC1DFA3F1700EFABF7 /* cehuaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cehuaUITests.swift; sourceTree = "<group>"; };
+		CD14C3AE1DFA3F1700EFABF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD14C3861DFA3F1600EFABF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD14C39A1DFA3F1700EFABF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD14C3A51DFA3F1700EFABF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD14C3801DFA3F1600EFABF7 = {
+			isa = PBXGroup;
+			children = (
+				CD14C38B1DFA3F1700EFABF7 /* cehua */,
+				CD14C3A01DFA3F1700EFABF7 /* cehuaTests */,
+				CD14C3AB1DFA3F1700EFABF7 /* cehuaUITests */,
+				CD14C38A1DFA3F1700EFABF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD14C38A1DFA3F1700EFABF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD14C3891DFA3F1700EFABF7 /* cehua.app */,
+				CD14C39D1DFA3F1700EFABF7 /* cehuaTests.xctest */,
+				CD14C3A81DFA3F1700EFABF7 /* cehuaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD14C38B1DFA3F1700EFABF7 /* cehua */ = {
+			isa = PBXGroup;
+			children = (
+				CD14C38C1DFA3F1700EFABF7 /* AppDelegate.swift */,
+				CD14C38E1DFA3F1700EFABF7 /* ViewController.swift */,
+				CD14C3901DFA3F1700EFABF7 /* Main.storyboard */,
+				CD14C3931DFA3F1700EFABF7 /* Assets.xcassets */,
+				CD14C3951DFA3F1700EFABF7 /* LaunchScreen.storyboard */,
+				CD14C3981DFA3F1700EFABF7 /* Info.plist */,
+			);
+			path = cehua;
+			sourceTree = "<group>";
+		};
+		CD14C3A01DFA3F1700EFABF7 /* cehuaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD14C3A11DFA3F1700EFABF7 /* cehuaTests.swift */,
+				CD14C3A31DFA3F1700EFABF7 /* Info.plist */,
+			);
+			path = cehuaTests;
+			sourceTree = "<group>";
+		};
+		CD14C3AB1DFA3F1700EFABF7 /* cehuaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD14C3AC1DFA3F1700EFABF7 /* cehuaUITests.swift */,
+				CD14C3AE1DFA3F1700EFABF7 /* Info.plist */,
+			);
+			path = cehuaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD14C3881DFA3F1600EFABF7 /* cehua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD14C3B11DFA3F1700EFABF7 /* Build configuration list for PBXNativeTarget "cehua" */;
+			buildPhases = (
+				CD14C3851DFA3F1600EFABF7 /* Sources */,
+				CD14C3861DFA3F1600EFABF7 /* Frameworks */,
+				CD14C3871DFA3F1600EFABF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cehua;
+			productName = cehua;
+			productReference = CD14C3891DFA3F1700EFABF7 /* cehua.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD14C39C1DFA3F1700EFABF7 /* cehuaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD14C3B41DFA3F1700EFABF7 /* Build configuration list for PBXNativeTarget "cehuaTests" */;
+			buildPhases = (
+				CD14C3991DFA3F1700EFABF7 /* Sources */,
+				CD14C39A1DFA3F1700EFABF7 /* Frameworks */,
+				CD14C39B1DFA3F1700EFABF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD14C39F1DFA3F1700EFABF7 /* PBXTargetDependency */,
+			);
+			name = cehuaTests;
+			productName = cehuaTests;
+			productReference = CD14C39D1DFA3F1700EFABF7 /* cehuaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD14C3A71DFA3F1700EFABF7 /* cehuaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD14C3B71DFA3F1700EFABF7 /* Build configuration list for PBXNativeTarget "cehuaUITests" */;
+			buildPhases = (
+				CD14C3A41DFA3F1700EFABF7 /* Sources */,
+				CD14C3A51DFA3F1700EFABF7 /* Frameworks */,
+				CD14C3A61DFA3F1700EFABF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD14C3AA1DFA3F1700EFABF7 /* PBXTargetDependency */,
+			);
+			name = cehuaUITests;
+			productName = cehuaUITests;
+			productReference = CD14C3A81DFA3F1700EFABF7 /* cehuaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD14C3811DFA3F1600EFABF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = jdzw;
+				TargetAttributes = {
+					CD14C3881DFA3F1600EFABF7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					CD14C39C1DFA3F1700EFABF7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD14C3881DFA3F1600EFABF7;
+					};
+					CD14C3A71DFA3F1700EFABF7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD14C3881DFA3F1600EFABF7;
+					};
+				};
+			};
+			buildConfigurationList = CD14C3841DFA3F1600EFABF7 /* Build configuration list for PBXProject "cehua" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD14C3801DFA3F1600EFABF7;
+			productRefGroup = CD14C38A1DFA3F1700EFABF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD14C3881DFA3F1600EFABF7 /* cehua */,
+				CD14C39C1DFA3F1700EFABF7 /* cehuaTests */,
+				CD14C3A71DFA3F1700EFABF7 /* cehuaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD14C3871DFA3F1600EFABF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD14C3971DFA3F1700EFABF7 /* LaunchScreen.storyboard in Resources */,
+				CD14C3941DFA3F1700EFABF7 /* Assets.xcassets in Resources */,
+				CD14C3921DFA3F1700EFABF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD14C39B1DFA3F1700EFABF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD14C3A61DFA3F1700EFABF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD14C3851DFA3F1600EFABF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD14C38F1DFA3F1700EFABF7 /* ViewController.swift in Sources */,
+				CD14C38D1DFA3F1700EFABF7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD14C3991DFA3F1700EFABF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD14C3A21DFA3F1700EFABF7 /* cehuaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD14C3A41DFA3F1700EFABF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD14C3AD1DFA3F1700EFABF7 /* cehuaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD14C39F1DFA3F1700EFABF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD14C3881DFA3F1600EFABF7 /* cehua */;
+			targetProxy = CD14C39E1DFA3F1700EFABF7 /* PBXContainerItemProxy */;
+		};
+		CD14C3AA1DFA3F1700EFABF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD14C3881DFA3F1600EFABF7 /* cehua */;
+			targetProxy = CD14C3A91DFA3F1700EFABF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD14C3901DFA3F1700EFABF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD14C3911DFA3F1700EFABF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD14C3951DFA3F1700EFABF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD14C3961DFA3F1700EFABF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD14C3AF1DFA3F1700EFABF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CD14C3B01DFA3F1700EFABF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD14C3B21DFA3F1700EFABF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cehua/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.cehua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CD14C3B31DFA3F1700EFABF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cehua/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.cehua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CD14C3B51DFA3F1700EFABF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cehuaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.cehuaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cehua.app/cehua";
+			};
+			name = Debug;
+		};
+		CD14C3B61DFA3F1700EFABF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cehuaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.cehuaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cehua.app/cehua";
+			};
+			name = Release;
+		};
+		CD14C3B81DFA3F1700EFABF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = cehuaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.cehuaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = cehua;
+			};
+			name = Debug;
+		};
+		CD14C3B91DFA3F1700EFABF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = cehuaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.cehuaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = cehua;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD14C3841DFA3F1600EFABF7 /* Build configuration list for PBXProject "cehua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD14C3AF1DFA3F1700EFABF7 /* Debug */,
+				CD14C3B01DFA3F1700EFABF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD14C3B11DFA3F1700EFABF7 /* Build configuration list for PBXNativeTarget "cehua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD14C3B21DFA3F1700EFABF7 /* Debug */,
+				CD14C3B31DFA3F1700EFABF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD14C3B41DFA3F1700EFABF7 /* Build configuration list for PBXNativeTarget "cehuaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD14C3B51DFA3F1700EFABF7 /* Debug */,
+				CD14C3B61DFA3F1700EFABF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD14C3B71DFA3F1700EFABF7 /* Build configuration list for PBXNativeTarget "cehuaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD14C3B81DFA3F1700EFABF7 /* Debug */,
+				CD14C3B91DFA3F1700EFABF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD14C3811DFA3F1600EFABF7 /* Project object */;
+}
