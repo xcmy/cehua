@@ -14,6 +14,9 @@
 		CD14C3971DFA3F1700EFABF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD14C3951DFA3F1700EFABF7 /* LaunchScreen.storyboard */; };
 		CD14C3A21DFA3F1700EFABF7 /* cehuaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD14C3A11DFA3F1700EFABF7 /* cehuaTests.swift */; };
 		CD14C3AD1DFA3F1700EFABF7 /* cehuaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD14C3AC1DFA3F1700EFABF7 /* cehuaUITests.swift */; };
+		CD14C3BB1DFA3F6A00EFABF7 /* secViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD14C3BA1DFA3F6A00EFABF7 /* secViewController.swift */; };
+		CD14C3BE1DFA3FEF00EFABF7 /* pch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD14C3BD1DFA3FEF00EFABF7 /* pch.swift */; };
+		CD14C3C01DFA448500EFABF7 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD14C3BF1DFA448500EFABF7 /* thirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		CD14C3A81DFA3F1700EFABF7 /* cehuaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cehuaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD14C3AC1DFA3F1700EFABF7 /* cehuaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cehuaUITests.swift; sourceTree = "<group>"; };
 		CD14C3AE1DFA3F1700EFABF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD14C3BA1DFA3F6A00EFABF7 /* secViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secViewController.swift; sourceTree = "<group>"; };
+		CD14C3BD1DFA3FEF00EFABF7 /* pch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pch.swift; sourceTree = "<group>"; };
+		CD14C3BF1DFA448500EFABF7 /* thirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				CD14C38C1DFA3F1700EFABF7 /* AppDelegate.swift */,
 				CD14C38E1DFA3F1700EFABF7 /* ViewController.swift */,
+				CD14C3BA1DFA3F6A00EFABF7 /* secViewController.swift */,
+				CD14C3BF1DFA448500EFABF7 /* thirdViewController.swift */,
+				CD14C3BD1DFA3FEF00EFABF7 /* pch.swift */,
 				CD14C3901DFA3F1700EFABF7 /* Main.storyboard */,
 				CD14C3931DFA3F1700EFABF7 /* Assets.xcassets */,
 				CD14C3951DFA3F1700EFABF7 /* LaunchScreen.storyboard */,
@@ -193,6 +202,7 @@
 				TargetAttributes = {
 					CD14C3881DFA3F1600EFABF7 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P67894NEV2;
 						ProvisioningStyle = Automatic;
 					};
 					CD14C39C1DFA3F1700EFABF7 = {
@@ -260,7 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD14C38F1DFA3F1700EFABF7 /* ViewController.swift in Sources */,
+				CD14C3BB1DFA3F6A00EFABF7 /* secViewController.swift in Sources */,
+				CD14C3C01DFA448500EFABF7 /* thirdViewController.swift in Sources */,
 				CD14C38D1DFA3F1700EFABF7 /* AppDelegate.swift in Sources */,
+				CD14C3BE1DFA3FEF00EFABF7 /* pch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P67894NEV2;
 				INFOPLIST_FILE = cehua/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JD.cehua;
@@ -424,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P67894NEV2;
 				INFOPLIST_FILE = cehua/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JD.cehua;
